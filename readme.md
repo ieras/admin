@@ -34,6 +34,10 @@
 ## 安装
 
 - `Laravel` 安装流程先走一套
+`
+composer install
+php artisan migrate
+`
 - `php artisan jwt:secret`
 - `php artisan admin:init` 初始化数据库的数据（超管，角色，权限和路由）
 - `yarn && yarn build` 推荐使用 `yarn` 哦
